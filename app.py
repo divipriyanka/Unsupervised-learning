@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import difflib
-from sklearn.metrics.pairwise import cosine_similarity
 
 movie_name = input(' Enter your favorite movie name: ')
 list_of_all_titles = movies_data['title'].tolist()
